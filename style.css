@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+}
+.right-col{
+    background-image: url(/assets/background.png);
+    height: 100vh;
+    flex-basis: 60%;
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+
+}
+.right-col img{
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left-col{
+  flex-basis: 40%;
+  min-height: 100vh;
+  background: #0d0f12;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo{
+    margin-top: 40px;
+    /* text-align: center; */
+    
+}
+.logo img{
+    width : 300px;
+    
+}
+.form{
+    margin-top: 53px;
+   
+    
+}
+.form p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: normal;
+    
+}
+.form input{
+    background: none;
+    outline: 0;
+    border: 1px solid #ffffff38;
+    width: 327px;
+    color: #fff;
+    padding: 8px 20px;
+    margin: 4px 0;
+    margin-bottom: 28px;
+}
+.sign-in{
+    width: 327px;
+    padding: 8px 10px;
+    background: #006a9e;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 48px;
+    border-radius: 4px;
+    transition: background 0.1s;
+    border: none;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background: #006395;
+}
+.left-col a{
+    text-decoration: none;
+    color: #2ea0d6;
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: 350;
+    margin-bottom: 16px;
+}
+.left-col a:hover{
+    text-decoration: underline;
+    color: #006a9e;
+}
+.bottom-border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+    width: 327px;
+    text-align: center;
+    padding-bottom: 16px;
+   
+}
+.create-account{
+    background: hsla(210, 15%, 60%, 0.24);
+    font-size: 14px;
+    border: none;
+    outline: 0;
+    border-radius: 4px;
+    width: 327px;
+    padding: 9px 10px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 24px;
+    transition: background 0.1s;
+    cursor: pointer;
+}
+.create-account:hover{
+    background: hsla(210, 15%, 60%, 0.274);
+}
+.footer{
+    color: #ffffff;
+    opacity: 85%;
+    font-size: 11px;
+    font-weight: 200;
+    margin-top: 37px;
+    width: 327px;
+    text-align: center;
+}
+.footer a{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 0 3px;
+    
+}
+.footer p{
+    font-weight: 0;
+}
+
+
+

@@ -1,0 +1,59 @@
+ /* css for media queries */
+ @media only screen and (max-width : 700px){
+    .right-col{
+        display: none;
+    }
+    .left-col{
+        flex-basis: 100%;
+    }
+    .logo{
+        margin-top: 23%;
+    }
+    .form{
+        width: 80%;
+    }
+    .form input{
+        width: 100%;
+    }
+    .sign-in{
+        width: 100%;
+    }
+    .create-account{
+        width: 80%;
+    }
+    .bottom-border{
+        width: 80%;
+    }
+    .footer{
+        margin-top: 100px;
+
+    }
+ }
+ @media only screen and (max-width:900px) {
+    .right-col img{
+        width: 85%;
+    }
+    .left-col img{
+        width: 250px;
+        margin-top: 23%;
+    }
+    .form{
+        width: 80%;
+    }
+    .form input{
+        width: 100%;
+    }
+    .sign-in{
+        width: 100%;
+    }
+    .create-account{
+        width: 80%;
+    }
+    .bottom-border{
+        width: 80%;
+    }
+    .footer{
+        margin-top: 100px;
+       font-size: 12px;
+    }
+ }
